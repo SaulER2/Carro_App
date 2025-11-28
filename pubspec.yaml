@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text: ^6.5.0
+  speech_to_text: ^7.0.0
   flutter_bluetooth_serial: ^0.4.0
   path_provider: ^2.1.0
   dio: ^5.0.0
@@ -63,8 +63,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/models/llama-1b-instruct-q4.gguf
-
+    - assets/models/
+  
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     // Cargar modelo (copiar de assets a storage y luego load)
     try {
-      await llm.loadModelFromAssets('assets/models/llama-1b-instruct-q4.gguf');
+      await llm.loadModelFromAssets('assets/models/llama-3.2-1b-instruct-q4_k_m.gguf');
       setState(() => modelLoaded = true);
     } catch (e) {
       print('Error cargando LLM: $e');
